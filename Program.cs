@@ -4,9 +4,19 @@ namespace Open_Lab__10._00
 {
     class Program
     {
-        static void Main(string[] args)
+
+        static void Main()
         {
-            Console.WriteLine("Hello XamarinLab2021!");
+            Book Lotr = new Book();
+            Lotr.title = "LOTR";
+            Console.WriteLine(Lotr.title);
         }
+            class Book
+        {
+            public string title;
+            private int pages;
+        }
+        
+        
     }
 }
